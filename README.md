@@ -7,9 +7,7 @@ A GET request can be sent a certain url of a customer Zenya which will return a 
 It checks the following things:
 - Database access
 - Storage access
-- Search api (this check will be done every 1 to 2 hours)
-
-> NB: What this doesn't check if the API's are working. For this you call the version api of your Zenya.
+- Search Api
 
 # Curl
 ```curl
