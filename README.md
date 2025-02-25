@@ -1,15 +1,15 @@
 # Zenya UpCheck
-Description the system with which can be checked if your Zenya instance is up and running.
-
-> NB: What this doesn't check if the API's are working. For this you call the version api of your Zenya.
+Description of the system with which can be checked if your Zenya instance is up and running.
 
 # Explanation
-An GET request can be sent a certain url of a customer zenya instance which will return a 2xx if everything is okay and a 500 if something is wrong.
+A GET request can be sent a certain url of a customer Zenya which will return a 2xx if everything is okay and a 500 if something is wrong.
 
-It checks the following things
+It checks the following things:
 - Database access
 - Storage access
 - Search api (this check will be done every 1 to 2 hours)
+
+> NB: What this doesn't check if the API's are working. For this you call the version api of your Zenya.
 
 # Curl
 ```curl
